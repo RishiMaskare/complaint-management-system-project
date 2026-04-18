@@ -1,0 +1,43 @@
+# Dependencies
+node_modules
+**/node_modules
+
+# Environment Variables - NEVER commit these
+.env
+.env.local
+.env.*.local
+**/.env
+**/.env.local
+**/.env.*.local
+
+# Build output
+dist
+dist-ssr
+build
+client/dist
+
+# Uploads (local image storage)
+server/uploads/*
+!server/uploads/.gitkeep
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# OS Files
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/*
+!.vscode/extensions.json
+.idea
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
