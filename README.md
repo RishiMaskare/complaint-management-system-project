@@ -105,12 +105,12 @@ Create `.env` file in the `server` directory:
 ```env
 PORT=5000
 MONGODB_URI=mongodb://localhost:27017/complaint-ms
-JWT_SECRET=your_super_secret_jwt_key_here
+JWT_SECRET=your_super_secret_jwt_key_here_change_in_production
 JWT_EXPIRE=7d
-ADMIN_SECRET_KEY=your_super_secure_admin_secret_key
-CLOUDINARY_CLOUD_NAME=your_cloudinary_cloud_name (optional)
-CLOUDINARY_API_KEY=your_cloudinary_api_key (optional)
-CLOUDINARY_API_SECRET=your_cloudinary_api_secret (optional)
+ADMIN_SECRET_KEY=your_super_secure_admin_secret_key_here
+ADMIN_NAME=System Admin
+ADMIN_EMAIL=admin@college.edu
+ADMIN_PASSWORD=your_admin_password_here
 ```
 
 Create `.env` file in the `client` directory:
